@@ -1,0 +1,19 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "LGPL-v3"
+
+[[mods]]
+modId = "dimensionalsycnfixes"
+version = "${version}"
+displayName = "DimensionalSycnFixes"
+authors = "TeamPotato"
+description = '''
+A Minecraft Mod.
+'''
+
+[[dependencies.dimensionalsycnfixes]]
+modId = "forge"
+mandatory = true
+versionRange = "[36,)"
+ordering = "NONE"
+side = "BOTH"
