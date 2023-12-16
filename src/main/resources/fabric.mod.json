@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "dimensionalsyncfixes",
+	"version": "${version}",
+	"name": "DimensionalSyncFixes",
+	"description": "A Minecraft Mod",
+	"authors": [
+		"TeamPotato"
+	],
+	"contact": {
+		"homepage": "https://legacy.curseforge.com/minecraft/mc-mods/dimensional-sync-fixes",
+		"sources": "https://github.com/MCTeamPotato/DimensionalSyncFixes"
+	},
+	"license": "LGPL-v3",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.teampotato.dimensionalsyncfixes.DimensionalSyncFixes"
+		]
+	},
+	"mixins": [
+		"dimensionalsyncfixes.mixins.json"
+	],
+	"depends": {
+		"minecraft": "*"
+	}
+}
