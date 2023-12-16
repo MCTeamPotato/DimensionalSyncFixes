@@ -16,7 +16,7 @@ public class DimensionalSycnFixes {
 
     public DimensionalSycnFixes() {
         MinecraftForge.EVENT_BUS.addListener((PlayerEvent.PlayerChangedDimensionEvent event) -> {
-            Player player = event.getEntity();
+            Player player = event.getPlayer();
             player.giveExperiencePoints(0);
             final Map<MobEffect, MobEffectInstance> activeEffects = player.getActiveEffectsMap();
             synchronized (activeEffects) {
