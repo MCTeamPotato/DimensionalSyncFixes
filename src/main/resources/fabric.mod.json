@@ -18,10 +18,7 @@
 			"com.teampotato.dimensionalsyncfixes.DimensionalSyncFixes"
 		]
 	},
-	"mixins": [
-		"dimensionalsyncfixes.mixins.json"
-	],
 	"depends": {
-		"minecraft": "*"
+		"fabric": "*"
 	}
 }
